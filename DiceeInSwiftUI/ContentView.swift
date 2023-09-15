@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
+    // state var's trigger containing struct to rebuild itself upon val change
     @State private var leftDiceNumber = 1
     @State private var rightDiceNumber = 1
     
