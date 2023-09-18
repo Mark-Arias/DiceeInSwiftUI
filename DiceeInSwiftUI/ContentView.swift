@@ -33,7 +33,8 @@ struct ContentView: View {
                     rollDice()
                 }
                 .font(.system(size: 50))
-                .fontWeight(.heavy)
+                // change made to preserve i0S 15 compatability
+                // .fontWeight(.heavy)
                 .foregroundColor(.white)
                 .padding(.horizontal)
                 .background(Color.red)
